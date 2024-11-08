@@ -1,0 +1,43 @@
+/* admin.css */
+
+body {
+    background-image: url('6.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+}
+
+.admin-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.party-list {
+    list-style: none;
+    padding: 0;
+}
+
+.party-item {
+    margin-bottom: 10px;
+}
+
+.total-votes {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.party-name {
+    font-weight: bold;
+}
+
+.party-votes {
+    margin-left: 10px;
+}

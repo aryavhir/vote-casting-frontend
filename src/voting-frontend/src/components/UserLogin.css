@@ -1,0 +1,46 @@
+/* UserLogin.css */
+
+/* Style for the login form container */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style for the form element */
+  .form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for form input fields */
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the login button */
+  .form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for error message */
+  .error-message {
+    color: #ff0000;
+  }
+  
